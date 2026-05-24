@@ -7,7 +7,7 @@ import heatmap from "../assets/images/heatmap.png";
 import prediction from "../assets/images/model_prediction.png";
 import pca_plot from "../assets/images/pca_plot.png";
 import rfm_table from "../assets/images/rfm_table.png";
-import agri_dashboard from "/../assets/images/powerBI.png";
+import agri_dashboard from "../assets/images/powerBI.png";
 import agri_trend from "../assets/images/price_trend.png";
 import product_ranking from "../assets/images/Product_Ranking.png";
 import repeat_customers from "../assets/images/Repeat_Vs_Onetime.png";
