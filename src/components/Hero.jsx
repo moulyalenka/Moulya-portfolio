@@ -1,5 +1,5 @@
 import moulya from "../assets/images/moulya.png";
-import "/../styles/Hero.css";
+import "../styles/Hero.css";
 function Hero({mode,setMode})  {
 
   return (
