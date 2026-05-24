@@ -1,0 +1,223 @@
+.hero{
+min-height:115vh;
+padding-top:85px;
+display:flex;
+align-items:center;
+justify-content:center;
+gap:100px;
+padding:0 40px;
+
+position:relative;
+overflow: hidden;
+
+
+}
+.hero-content{
+max-width:650px;
+}
+.hero-label{
+color:#6A6A6A;
+letter-spacing:3px;
+margin-bottom:18px;
+font-size:14px;
+padding-top:50px;
+}
+.hero-title{
+font-size:72px;
+line-height:1;
+color:#1E2A44;
+font-weight:700;
+}
+.hero-tagline{
+margin-top:25px;
+color:#1E2A44;
+font-size:22px;
+font-weight:500;
+}
+.hero-soul{
+margin-top:25px;
+line-height:1.8;
+color:#555;
+font-size:18px;
+max-width:560px;
+}
+.scroll-indicator{
+position:absolute;
+bottom:30px;
+left:50%;
+transform:translateX(-50%);
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+font-size:13px;
+letter-spacing:1px;
+color:#666;
+}
+
+.arrow{
+font-size:22px;
+animation:bounce 1.8s infinite;
+}
+
+@keyframes bounce{
+
+0%,100%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(10px);
+}
+}
+.hero::after{
+
+content:"";
+
+position:absolute;
+
+bottom:-1px;
+left:0;
+
+width:100%;
+height:90px;
+opacity:.45;
+background:
+
+linear-gradient(
+
+to bottom,
+
+transparent 0%,
+
+rgba(245,239,230,.4) 30%,
+
+rgba(244,241,248,.75) 70%,
+
+#f4f1f8 100%
+
+);
+
+pointer-events:none;
+
+z-index:5;
+
+}
+.toggle{
+display:flex;
+gap:10px;
+
+background:rgba(255,255,255,.35);
+
+padding:10px 14px;
+
+border-radius:999px;
+
+backdrop-filter:blur(10px);
+}
+
+.toggle button{
+
+border:none;
+
+background:transparent;
+
+padding:8px 16px;
+
+border-radius:999px;
+
+cursor:pointer;
+
+font-size:14px;
+
+color:#666;
+}
+
+.toggle .active{
+
+background:#1E2A44;
+
+color:white;
+
+transition:.3s;
+}
+/* DATA MODE */
+
+.hero.data{
+
+background:
+linear-gradient(
+135deg,
+#F5EFE6,
+#EEE7F6
+);
+
+transition:all .8s ease;
+}
+
+
+/* TECH MODE */
+
+.hero.tech{
+
+background:
+linear-gradient(
+135deg,
+#EEF4FF,
+#DCE8FF
+);
+
+transition:all .8s ease;
+}
+
+
+/* TECH PHOTO GLOW */
+
+.hero.tech img{
+
+filter:
+drop-shadow(0 25px 50px rgba(107,138,247,.28));
+}
+
+
+/* TECH MINI CARDS */
+
+.hero.tech .card-hover{
+
+background:
+rgba(255,255,255,.22);
+
+border:
+1px solid rgba(107,138,247,.20);
+
+backdrop-filter:blur(14px);
+}
+
+
+/* TECH TOGGLE */
+
+.hero.tech .toggle{
+
+background:
+rgba(107,138,247,.08);
+
+border:
+1px solid rgba(107,138,247,.15);
+}
+
+
+/* TECH TITLE */
+
+.hero.tech .hero-title{
+
+color:#162033;
+}
+
+
+/* TECH TAGLINE */
+
+.hero.tech .hero-tagline{
+
+color:#5F6F91;
+}
