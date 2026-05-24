@@ -1,21 +1,21 @@
-import "/home/user/Moulya-portfolio/src/styles/Projects.css";
-import dashboard from "/home/user/Moulya-portfolio/src/assets/images/dashboard.png";
-import roc_curve from "/home/user/Moulya-portfolio/src/assets/images/roc_curve.png";
-import metrics from "/home/user/Moulya-portfolio/src/assets/images/metrics.png";
-import satisfaction from "/home/user/Moulya-portfolio/src/assets/images/satisfaction.png";
-import heatmap from "/home/user/Moulya-portfolio/src/assets/images/heatmap.png";
-import prediction from "/home/user/Moulya-portfolio/src/assets/images/model_prediction.png";
-import pca_plot from "/home/user/Moulya-portfolio/src/assets/images/pca_plot.png";
-import rfm_table from "/home/user/Moulya-portfolio/src/assets/images/rfm_table.png";
-import agri_dashboard from "/home/user/Moulya-portfolio/src/assets/images/powerBI.png";
-import agri_trend from "/home/user/Moulya-portfolio/src/assets/images/price_trend.png";
-import product_ranking from "/home/user/Moulya-portfolio/src/assets/images/Product_Ranking.png";
-import repeat_customers from "/home/user/Moulya-portfolio/src/assets/images/Repeat_Vs_Onetime.png";
-import report1 from "/home/user/Moulya-portfolio/src/assets/images/powerBI.png";
+import "../styles/Projects.css";
+import dashboard from "../assets/images/dashboard.png";
+import roc_curve from "../assets/images/roc_curve.png";
+import metrics from "../assets/images/metrics.png";
+import satisfaction from "../assets/images/satisfaction.png";
+import heatmap from "../assets/images/heatmap.png";
+import prediction from "../assets/images/model_prediction.png";
+import pca_plot from "../assets/images/pca_plot.png";
+import rfm_table from "../assets/images/rfm_table.png";
+import agri_dashboard from "/../assets/images/powerBI.png";
+import agri_trend from "../assets/images/price_trend.png";
+import product_ranking from "../assets/images/Product_Ranking.png";
+import repeat_customers from "../assets/images/Repeat_Vs_Onetime.png";
+import report1 from "../assets/images/powerBI.png";
 
-import report2 from "/home/user/Moulya-portfolio/src/assets/images/dashboard.png";
+import report2 from "../assets/images/dashboard.png";
 
-import report3 from "/home/user/Moulya-portfolio/src/assets/images/report3.png";
+import report3 from "../assets/images/report3.png";
 
 function Projects({ mode })  {
 

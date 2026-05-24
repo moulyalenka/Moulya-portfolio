@@ -1,4 +1,4 @@
-import "/home/user/Moulya-portfolio/src/styles/Skills.css";
+import "../styles/Skills.css";
 
 function Skills({ mode }) {
 

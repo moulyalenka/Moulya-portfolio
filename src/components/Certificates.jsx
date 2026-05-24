@@ -1,8 +1,8 @@
-import "/home/user/Moulya-portfolio/src/styles/Certificates.css";
+import "../styles/Certificates.css";
 
-import internship from "/home/user/Moulya-portfolio/src/assets/images/internship.png";
+import internship from "../assets/images/internship.png";
 
-import course from "/home/user/Moulya-portfolio/src/assets/images/course.png";
+import course from "../assets/images/course.png";
 
 
 function Certificates({mode}){

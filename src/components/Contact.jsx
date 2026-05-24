@@ -1,4 +1,4 @@
-import "/home/user/Moulya-portfolio/src/styles/Contact.css";
+import "../styles/Contact.css";
 
 function Contact(){
 

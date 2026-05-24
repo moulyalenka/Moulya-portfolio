@@ -1,4 +1,4 @@
-import "/home/user/Moulya-portfolio/src/styles/Journey.css";
+import "../styles/Journey.css";
 
 function Journey({ mode }) {
 
